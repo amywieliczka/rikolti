@@ -1,0 +1,21 @@
+[project]
+name = "rikolti"
+version = "0.0.1"
+authors = [
+  { name="Amy Wieliczka", email="amywieliczka@gmail.com" },
+]
+description = "Harvester for the Rikolti project"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+"Homepage" = "https://github.com/ucldc/rikolti"
+"Bug Tracker" = "https://github.com/ucldc/rikolti/issues"
